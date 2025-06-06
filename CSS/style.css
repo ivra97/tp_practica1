@@ -7,6 +7,13 @@ body {
     color: #2B2D42;
 }
 
+.logo {
+     max-width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}   
+
 
 header {
     background-color: #2B2D42;
