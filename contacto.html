@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="es-ar">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JuegosBaratos.com</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    
-    
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
+
 <body>
     <header>
-        <h1>Contacto</h1>
-       
-    </header>
-     <nav>
+        <img src="img/logo tienda de juegos.png" alt="Logo de JuegosBaratos" class="logo">
+        <h1>JuegosBaratos</h1>
+        <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contactanos</a></li>
-                <li><a href="clientes.html">clientes</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-      <section class="main-section">
-    <h2>Contacto</h2>
-    <form id="contact-form">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required>
+    </header>
 
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" required>
+    <section class="main-section">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
 
-        <label for="como-se-entero">¿Cómo te enteraste de nosotros?</label>
-        <select id="como-se-entero">
-            <option value="redes">Redes Sociales</option>
-            <option value="comentarios">Recomendación</option>
-            <option value="otro">Otro</option>
-        </select>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email">
 
-        <div id="otro-especifique" style="display: none;">
-            <label for="especifique">Especifique:</label>
-            <textarea id="especifique"></textarea>
-        </div>
+            <label for="como-se-entero">¿Cómo te enteraste de nosotros?</label>
+            <select id="como-se-entero">
+                <option value="redes">Redes Sociales</option>
+                <option value="comentarios">Recomendación</option>
+                <option value="otro">Otro</option>
+            </select>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" required></textarea>
+            <div id="otro-especifique">
+                <label for="especifique">Especifique:</label>
+                <textarea id="especifique"></textarea>
+            </div>
 
-        <button type="submit">Enviar</button>
-    </form>
-</section>  
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje"></textarea>
 
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-    
-        <footer> Juegos Baratos corporations 2025 all rights reserved for ArmyGamers.</footer>
-        <script src="js/script.js"></script>
+    <footer>
+        <p>&copy; 2025 JuegosBaratos.com - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
-</html> 
+
+</html>
