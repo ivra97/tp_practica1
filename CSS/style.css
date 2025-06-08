@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-     max-width: 150px; 
+    max-width: 150px; 
     height: auto; 
     display: block; 
     margin: 0 auto;
@@ -50,15 +50,52 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.productos, .equipo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.productos img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.equipo img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+.producto1 {
+    text-align: center;
+}
+
+#otro-especifique {
+    display: none;
+}
+
+#otro-especifique label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#otro-especifique textarea {
+    width: 100%;
+    min-height: 50px;
+    resize: vertical;
+    box-sizing: border-box;
+}
 
 footer {
     background-color: #2B2D42;
     color: white;
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 
