@@ -3,12 +3,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EDF2F4;
+    background-color: #db2b74;
     color: #2B2D42;
 }
 
 .logo {
-    max-width: 150px; 
+    max-width: 400px; 
     height: auto; 
     display: block; 
     margin: 0 auto;
@@ -16,7 +16,7 @@ body {
 
 
 header {
-    background-color: #2B2D42;
+    background-color: #490a66;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #2B2D42;
+    background-color: #490a66;
     color: white;
     text-align: center;
     padding: 1rem;
