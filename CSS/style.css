@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #EDF2F4;
     color: #2B2D42;
+    font-family: "Alumni Sans SC", sans-serif;
 }
 
 .logo {
@@ -29,6 +30,9 @@ nav ul {
     justify-content: center;
     gap: 20px;
 }
+
+
+
 
 nav a {
     color: white;
